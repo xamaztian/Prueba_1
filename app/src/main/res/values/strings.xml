@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Prueba Guan</string>
+    <string name="app_name">Prueba Number One</string>
     <string name="TextPricipal">
         "Desde aquí se presenta aplicación asociada a la prueba número 1 \n"
         "Por favor presione siguente para continuar"
@@ -8,4 +8,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textButtonNext">Siguiente</string>
+    <string name="textFormComplete">Complete los campos</string>
+    <string name="textFormNameHint">Nombre</string>
+    <string name="textHintLastName">Apellido</string>
+    <string name="textRadioButtonMan">Hombre</string>
+    <string name="textRadioButtonWoman">Mujer</string>
+    <string name="textButtonShow">Mostrar</string>
 </resources>

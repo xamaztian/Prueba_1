@@ -13,22 +13,12 @@
         android:padding="16dp">
 
         <fragment
-            android:id="@+id/fragmentOne"
+            android:id="@+id/fragmentInputs"
             android:name="cl.xamaztian.prueba_1.InputFragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:layout="@layout/fragment_input" />
 
-        <Button
-            android:id="@+id/btnMostrar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Mostrar" />
 
-        <TextView
-            android:id="@+id/textViewFinalText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="gone" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
