@@ -8,11 +8,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="textButtonNext">Siguiente</string>
+    <string name="next">Siguiente</string>
     <string name="textFormComplete">Complete los campos</string>
-    <string name="textFormNameHint">Nombre</string>
-    <string name="textHintLastName">Apellido</string>
-    <string name="textRadioButtonMan">Hombre</string>
-    <string name="textRadioButtonWoman">Mujer</string>
-    <string name="textButtonShow">Mostrar</string>
+    <string name="hintName">Nombre</string>
+    <string name="hintLastName">Apellido</string>
+    <string name="man">Hombre</string>
+    <string name="woman">Mujer</string>
+    <string name="show">Mostrar</string>
 </resources>

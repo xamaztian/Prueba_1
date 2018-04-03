@@ -14,15 +14,16 @@
         android:id="@+id/txtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/textFormNameHint" />
+        android:hint="@string/hintName" />
 
     <EditText
         android:id="@+id/txtLastName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/textHintLastName" />
+        android:hint="@string/hintLastName" />
 
     <RadioGroup
+        android:id="@+id/genderRg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -31,19 +32,19 @@
             android:id="@+id/radioButtonMan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/textRadioButtonMan" />
+            android:text="@string/man" />
 
         <RadioButton
             android:id="@+id/radioButtonWoman"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/textRadioButtonWoman" />
+            android:text="@string/woman" />
     </RadioGroup>
     <Button
         android:id="@+id/btnShow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/textButtonShow" />
+        android:text="@string/show" />
 
     <TextView
         android:id="@+id/textViewFinalText"

@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -41,10 +42,19 @@ public class InputFragment extends Fragment {
         final EditText txtName = view.findViewById(R.id.txtName);
         final EditText txtLastName = view.findViewById(R.id.txtLastName);
         final TextView textViewFinalText = view.findViewById(R.id.textViewFinalText);
+        final RadioGroup radioGroup = view.findViewById(R.id.genderRg);
         btnShow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String genderText = "";
+
+                //int selectedId = radioGroup.getCheckedRadioButtonId();
+                //if (-1 == selectedId) {
+
+                //} else {
+                //    RadioButton selected = radioGroup.findViewById(selectedId);
+                //   String gender = selected.getText().toString();
+                //}
 
                 genderText = FormValidations.gender(btnMen.isChecked(), btnWoman.isChecked());
 
